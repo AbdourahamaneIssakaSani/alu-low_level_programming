@@ -7,6 +7,26 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int a, A;
+
+	/* Lowercase start with 97 */
+	a = 97;
+	/* Uppercase start with 65 */
+	A = 65;
+
+	while (a < 123)
+	{
+		putchar(a);
+		a++;
+	}
+
+	while (A < 91)
+	{
+		putchar(A);
+		A++;
+	}
+
+	putchar(10);
+
 	return (0);
 }

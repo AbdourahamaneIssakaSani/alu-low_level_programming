@@ -7,6 +7,17 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	/* In ASCII, 97 to 122 represent 'a' to 'z' */
+	int a = 97;
+
+	while (a < 123)
+	{
+		putchar(a);
+		/* Incrementing 'a' to get the next character in the ASCII sequence */
+		a++;
+	}
+	/* Prints newline */
+	putchar(10);
+
 	return (0);
 }

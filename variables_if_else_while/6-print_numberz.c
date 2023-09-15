@@ -7,6 +7,17 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int n;
+	/* In ASCII, 48 to 57 represent '0' to '9' */
+	n = 48;
+
+	while (n < 58)
+	{
+		putchar(n);
+		n++;
+	}
+
+	putchar(10);
+
 	return (0);
 }

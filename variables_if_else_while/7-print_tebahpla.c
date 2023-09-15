@@ -7,6 +7,14 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int z = 122;
+
+	while (z > 96)
+	{
+		putchar(z);
+		z--;
+	}
+	putchar(10);
+
 	return (0);
 }
