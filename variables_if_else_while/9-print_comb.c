@@ -7,6 +7,21 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int digit;
+
+	digit = 48;
+
+	while (digit <= 57)
+	{
+		putchar(digit);
+		if (digit != 57)
+		{
+			putchar(44 + ' ');
+		}
+		digit++;
+	}
+
+	putchar('\n');
+
 	return (0);
 }
