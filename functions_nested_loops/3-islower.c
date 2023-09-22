@@ -2,6 +2,7 @@
 
 /**
  * _islower - _islower
+ * @c: int
  *
  * Return: 1 is true, 0 is false
  */
