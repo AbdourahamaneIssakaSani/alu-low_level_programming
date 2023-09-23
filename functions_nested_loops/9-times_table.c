@@ -24,13 +24,11 @@ void times_table(void)
                 if (column != 0)
                 {
                     _putchar(' ');
-                    _putchar(' ');
                 }
                 _putchar('0' + product);
             }
             else
             {
-                _putchar(' ');
                 _putchar('0' + product / 10);
                 _putchar('0' + product % 10);
             }
