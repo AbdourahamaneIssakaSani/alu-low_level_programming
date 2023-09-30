@@ -8,21 +8,21 @@
  */
 void print_rev(char *s)
 {
-    int i = 0;
-    /* count string len */
-    while (*(s + i))
-    {
-        i++;
-    }
+	int i = 0;
+	/* count string len */
+	while (*(s + i))
+	{
+		i++;
+	}
 
-    /*Remove the \0 count*/
-    i--;
+	/*Remove the \0 count*/
+	i--;
 
-    while (i >= 0)
-    {
-        _putchar(*(s + i));
-        i--;
-    }
+	while (i >= 0)
+	{
+		_putchar(*(s + i));
+		i--;
+	}
 
-    _putchar('\n');
+	_putchar('\n');
 }
