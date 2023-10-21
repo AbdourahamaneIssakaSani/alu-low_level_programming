@@ -17,6 +17,6 @@ struct dog
 
 	double weight;
 
-};
+} dog_t;
 #endif
 
