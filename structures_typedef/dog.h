@@ -3,20 +3,17 @@
 /**
  * struct dog - dog's information
  * @name: dog's name
- * @breed: dog's breed
+ * @owner: dog's owner
  * @age: dog's age
- * @weight: dog's weight
 */
 struct dog
 {
-	char name[50];
+	char *name;
 
-	char breed[50];
+	char *owner;
 
-	int age;
+	float age;
 
-	double weight;
-
-} dog_t;
+};
 #endif
 
