@@ -24,6 +24,7 @@ int open_file(const char *filename)
 ssize_t read_file(int fd, char *buffer, size_t letters)
 {
 	ssize_t n_read = read(fd, buffer, letters);
+
 	return (n_read);
 }
 
@@ -37,6 +38,7 @@ ssize_t read_file(int fd, char *buffer, size_t letters)
 ssize_t write_buffer(char *buffer, ssize_t n_read)
 {
 	ssize_t n_written = write(STDOUT_FILENO, buffer, n_read);
+
 	return (n_written);
 }
 
